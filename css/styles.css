@@ -1,0 +1,161 @@
+body {
+    
+    font-family: "Montserra";
+}
+#title {
+    background-color: #FF4C68;
+    color: #fff;
+}
+
+.containerfluid{
+    padding: 3% 15%;
+    
+    
+    
+   
+}
+.correct-text{
+    width: 80%;
+    font-size: 3rem;
+    font-weight: bold;
+}
+h1 {
+    font-family: "Montserrat-Black";
+    font-size: 3rem;
+    line-height: 1.5;
+    
+
+}
+.heading2{
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+    
+    
+    
+}
+
+
+/* .navbar{
+    position: absolute;
+    padding-bottom: 30px; */
+    
+    /* padding: 0 0 4.5rem; */
+/* } */
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    padding: 0 0 4.5rem;
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+.title-image {
+    border-radius: 15%;
+    width: 60%;
+    transform: rotate(25deg);
+
+}
+#features{
+    padding: 7% 15%;
+
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+    
+
+}
+.text {
+    font-family: "Montserrat-Bold";
+    font-weight: bold;
+    
+}
+p {
+    color: #8f8f8f;
+}
+.icon{
+    color:  #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px 20px 50px;
+}
+.top-youtuber-testimonials{
+    
+    font-family: "Monteserrat-bold";
+    color: #fff;
+    font-size: 3.5rem;
+
+}
+#pricing{
+    padding: 7% 15%;
+    text-align: center;
+
+}
+.pricing-coloumn {
+    padding: 3% 2%;
+}
+.find-heading{
+    font-family: "Monteserrat-black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+#find {
+    background-color: #FF4C68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+
+    
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+
+}
+.social-con{
+    margin: 20px 10px;
+}
+
+@media(max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
